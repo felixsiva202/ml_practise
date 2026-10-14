@@ -4,8 +4,8 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error,root_mean_squared_error,r2_score
 
 data = {
-    "hours_studied":[1,2,3,4,5,6,7,8,9,10,11],
-    "exam_score":[32,42,55,59,64,70,77,82,89,95,97]
+    "hours_studied":[1,2,3,4,5,6,7,8,9,10],
+    "exam_score":[32,42,55,59,64,70,77,82,89,95]
 }
 df = pd.DataFrame(data)
 
